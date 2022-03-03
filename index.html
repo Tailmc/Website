@@ -1,15 +1,10 @@
 <html>
-<body>
-    <div id="counter">5</div>
+    <body>
+    <p>You will be redirected in 3 seconds</p>
     <script>
-        setInterval(function() {
-            var div = document.querySelector("#counter");
-            var count = div.textContent * 1 - 1;
-            div.textContent = count;
-            if (count <= 0) {
-                window.location.replace("https://youtube.com");
-            }
-        }, 1000);
+        var timer = setTimeout(function() {
+            window.location='http://example.com'
+        }, 3000);
     </script>
 </body>
 </html>
