@@ -80,7 +80,7 @@ text-align: center;
     border-radius: 6px;
     transition: all 0.4s ease;
 }
-.navilinks:hovor{
+.navilinks:hover{
     color: #3175e3;
     transition: all 0.4s ease;
 }
@@ -106,7 +106,7 @@ text-align: center;
         height: 50vh;
         z-index: -1;
     }
-    .navimenu .activated{
+    .navimenu.activated{
         background: #131313;
         top: 100%;
         opacity: 1;
@@ -118,12 +118,12 @@ text-align: center;
     #navilogo{
         padding-left: 25px;
     }
-    .navitoggle .bar{
+    .navitoggle.bar{
 width: 25px;
 height: 3px;
 margin: 5px auto;
 transition: all 0.4s ease-in-out;
-background: #fff;
+background: #3175e3;
     }
     .naviitem{
         width: 100%;
