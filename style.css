@@ -27,7 +27,6 @@ z-index: 1000;
 }
 #navilogo{
     background: #3175e3;
-    background-image: linear-gradient(to left, #3175e3, 0%, #329ce3);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
