@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navi{
 background: #e2e2e2;
@@ -77,7 +77,7 @@ text-align: center;
     color: #fff;
 }
 .button:hover{
-    border-radius: 6px;
+    border-radius: 0px;
     transition: all 0.4s ease;
 }
 .navilinks:hover{
@@ -198,7 +198,7 @@ background-size: 100%;
 }
 .mainbutton{
     font-size: 1rem;
-    background-image: linear-gradient(to bottom,#3175e3 0%,#314ce3 100%);
+    background: #3175e3;
     padding: 14px 32px;
     border: none;
     color: #fff;
@@ -237,4 +237,37 @@ background-size: 100%;
 #mainimg{
     height: 80%;
     width: 80%;
+}
+@media screen and (max-width:768px){
+    .maincontainer{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+    .maincontent{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .maincontent h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    .maincontent p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 480px){
+    .maincontent h1{
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+    .maincontent p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
 }
