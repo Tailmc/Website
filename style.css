@@ -71,13 +71,15 @@ text-align: center;
     padding: 10px 20px;
     height: 100%;
     width: 100%;
-    border: none;
+    border: solid;
     border-radius: 4px;
-    background:#3175e3;
-    color: #fff;
+    background:#fff;
+    color:#000;
 }
 .button:hover{
-    border-radius: 0px;
+    border: none;
+    background: #3175e3;
+    color:#fff;
     transition: all 0.4s ease;
 }
 .navilinks:hover{
