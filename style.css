@@ -75,7 +75,7 @@ text-align: center;
     border-radius: 4px;
     border-color: #3175e3;
     background:#fff;
-    color:#000;
+    color:#3175e3;
 }
 .button:hover{
     background: #3175e3;
@@ -286,4 +286,81 @@ background-size: 100%;
  }
  .services h1{
      background-color: #314ce3;
+     background-size: 100%;
+     margin-bottom: 5rem;
+     font-size: 2.5rem;
+     -webkit-background-clip: text;
+     -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -moz-text-fill-color: transparent;
  }
+ .servicescontainer{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .servicescard{
+     margin: 1rem;
+     height: 525px;
+     width: 400px;
+     border-radius: 4px;
+     background-image: url(pics/error.jpeg);
+     background-size: cover;
+     position: relative;
+     color: #e2e2e2;
+ }
+ .servicescard:nth-child(2){
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: url(pics/bug.png);
+}
+.services h2{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+.servicescard p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+.servicescard button{
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #3175e3;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.servicescard:hover{
+    transform: scale(1.08);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+@media screen and (max-width:960px){
+    .services{
+        height: 1600px;
+    }
+    .services h1{
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+}
+@media screen and (max-width:480px){
+    .services{
+        height: 1440px;
+    }
+    .services h1{
+        font-size: 1.2rem;
+    }
+    .servicescard{
+        width: 300px;
+    }
+}
