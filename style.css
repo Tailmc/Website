@@ -48,7 +48,7 @@ text-align: center;
     height: 80px;
 }
 .navilinks{
-    color: black;
+    color: #131313;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,4 +83,85 @@ text-align: center;
 .navilinks:hovor{
     color: #3175e3;
     transition: all 0.4s ease;
+}
+@media screen and (max-width:960px){
+    .navicontainer{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+    .navimenu{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000%;
+        opacity: 1;
+        transition: all 0.4s ease;
+        height: 50vh;
+        z-index: -1;
+    }
+    .navimenu .activated{
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.4s ease;
+        z-index: 100;
+        height: 50vh;
+        font-size: 1.5rem;
+    }
+    #navilogo{
+        padding-left: 25px;
+    }
+    .navitoggle .bar{
+width: 25px;
+height: 3px;
+margin: 5px auto;
+transition: all 0.4s ease-in-out;
+background: #fff;
+    }
+    .naviitem{
+        width: 100%;
+    }
+    .navilinks{
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+    #mobilemenu{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+    .navibtn{
+        padding-bottom: 2rem;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+    .navitoggle .bar{
+        display: block;
+        cursor: pointer;
+    }
+    #mobilemenu.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    #mobilemenu.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobilemenu.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
