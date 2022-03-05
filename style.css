@@ -405,7 +405,7 @@ background-size: 100%;
     color:#3175e3;
 }
 .footerlinkitems a{
-    color: #000;
+    color: #131313;
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
@@ -414,7 +414,7 @@ background-size: 100%;
     transition: 0.3s ease-out;
 }
 .socialiconlink{
-    color: #fff;
+    color: #131313;
     font-size: 24px;
 }
 .socialmedia{
@@ -436,7 +436,7 @@ background-size: 100%;
     width: 240px;
 }
 .sociallogo{
-    color: #000;
+    color: #131313;
     justify-self: flex-start;
     margin-left: 20px;
     cursor: pointer;
@@ -447,7 +447,7 @@ background-size: 100%;
     margin-bottom: 16px;
 }
 .websiterights{
-    color: #000;
+    color: #131313;
 }
 @media screen and (max-width:820px){
     .footerlinks{
