@@ -318,12 +318,12 @@ background-size: 100%;
 }
 .services h2{
     position: absolute;
-    top: 350px;
+    top: 300px;
     left: 30px;
 }
 .servicescard p{
     position: absolute;
-    top: 400px;
+    top: 350px;
     left: 30px;
 }
 .servicescard button{
