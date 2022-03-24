@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Tail. This is a project for my website!</h1>
+<h1 align="center">This is a project for my website!</h1>
 
 - 🌱 I’m currently learning **JS, CSS, HTML**
 
