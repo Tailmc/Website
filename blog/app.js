@@ -1,7 +1,7 @@
-const menu = document.querySelector('#mobilemenu')
-const menul = document.querySelector('.navimenu')
+const menu = document.querySelector('#mobilemenu');
+const menul = document.querySelector('.navimenu');
 
 menu.addEventListener('click', function(){
-    menu.classList.toggle('active')
-    menul.classList.toggle('activated')
+    menu.classList.toggle('active');
+    menul.classList.toggle('activated');
 })
