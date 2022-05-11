@@ -8,7 +8,7 @@ For self-satisfaction and HTML/CSS study
 
 Github Pages https://tailmc.github.io/Website/
 
-CloudFlare Pages https://10c5a059.website-62h.pages.dev/
+CloudFlare Pages https://website-62h.pages.dev/
 
 
 ## FAQ
