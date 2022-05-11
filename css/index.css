@@ -83,7 +83,7 @@ body{
   position: relative;
   display: grid;
   place-items: center;
-    background: url(/pics/icon.png);
+    background: url(https://raw.githubusercontent.com/Tailmc/Website/main/pics/icon.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
