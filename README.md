@@ -33,4 +33,4 @@ If you have any feedback, please let me know (Tail#0005 on Discord)
 ![LICENSE](https://img.shields.io/github/license/Tailmc/Website?style=for-the-badge)
 ## Langage and Tools
 
-[HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)
+[![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)](https://developer.mozilla.org/ja/docs/Web/HTML)
