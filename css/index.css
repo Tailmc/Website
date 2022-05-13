@@ -308,6 +308,18 @@ opacity: 1;
   .outercontent p{
     font-size: 0.8rem;
   }
+  .outerline:hover{
+    animation-play-state: inherit;
+  }
+  .outerline:hover div i, .outerline:hover div img {
+    animation-play-state: inherit;
+  }
+  .outerline:hover div p {
+    animation-play-state: inherit;
+  }
+  .outerline:hover span{
+    animation-play-state: inherit;
+  }
 }
 @media screen and (max-width: 530px) {
   .grid h1{
