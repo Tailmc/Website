@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Information and solutions for Connection reset" /> 
+        <title>Connection reset / TailMC</title>
+        <link rel="stylesheet" href="/css/articles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Anybody:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+        <link rel="icon" type="image" href="/svg/paw-solid.svg">
+    </head>
+<body>
+    <div class="wrapper">
+    <h1 class="title">Internal exception java.net.socketexception connection reset</h1>
+    <ol class="list">
+        <li>Make sure the new OpenJDK16/17 is allowed through the Windows Firewall</li>
+        <p><ol class="listtype2">
+            <li>Press the Windows Key and type "firewall."</li>
+            <li>Click on "Allow an app through Windows Firewall."</li>
+            <li>In the new window, press "O" on your keyboard and look for "OpenJDK Platform Binary."</li>
+            <li>If you find it, make sure both the checkbox on the left, as well as both checkboxes on the right, are checked. Then click OK and try Minecraft again.</li>
+            <li>If you do not find that entry, click Change Settings, then click Allow another app, Click Browse, then navigate to ↓ and click Open, then Add.</li>
+            <p>C:\Program Files (x86)\Minecraft\runtime\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\javaw.exe</p>
+            <li>Click OK and try Minecraft again.</li>
+        </ol></p>
+        <li>Changing DNS settings</li>
+        <p>In some cases, your ISP's DNS (Domain Name Server) may have incorrect records. In this case, switching to Cloudflare's DNS may solve the problem Instructions on how to proceed <a href="https://1.1.1.1/dns/#setup-instructions" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> here</a></p>
+        <li>Uninstalling/disabling software</li>
+        <p>Try disabling all Hamachi, Antiviruses, and firewalls (especially third-party firewalls like McAfee)</p>
+        <li>Try the following on Windows:</li>
+        <p><ol class="listtype2">
+            <li>Press the Windows Key, then type cmd.</li>
+            <li>Under 'Command Prompt,' click Run as administrator</li>
+            <li>Type the following and press Enter each time.</li>
+            <p>netsh winsock reset</p>
+            <p>netsh int ip reset</p>
+            <p>ipconfig /release</p>
+            <p>ipconfig /renew</p>
+            <p>ipconfig /flushdns</p>
+        </ol></p>
+        <li>Other connections</li>
+        <p>Try other connections such as mobile hotspot or VPN, or if you don't have a VPN, use <a href="https://protonvpn.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Proton VPN</a> or <a href="https://cloudflarewarp.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Warp</a>, which are decent free VPNs.</p>
+    </ol>
+</div>
+</body>
+</html>
