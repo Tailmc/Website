@@ -146,7 +146,7 @@ body{
   animation: tooltips 40s infinite linear reverse;
   opacity: 0;
   transition: opacity 0.3s;
-  font-size: 0.5rem;
+  font-size: 1.5rem;
 }
 .outercontent:hover span{
 opacity: 1;
@@ -191,6 +191,7 @@ opacity: 1;
 .outercontent:hover {
   box-shadow: inset 0 0 0 4rem #00C89F;
   transition: box-shadow 0.3s;
+  z-index: 10;
 }
 .outercontent i, .outercontent img{
   opacity: 1;
