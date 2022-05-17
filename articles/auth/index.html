@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information and solutions for problems connecting to authentication servers" /> 
+    <title>Authentication Problems / TailMC</title>
+    <link rel="stylesheet" href="/css/articles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Anybody:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="icon" type="image" href="/svg/paw-solid.svg">
+</head>
+<body>
+    <div class="wrapper">
+    <h1 class="title">Authentication Problems</h1>
+    <ol class="list">
+        <li>If you have pirated Minecraft in the past</li>
+        <p>
+            <ol class="listtype2">
+                <li>First, you will need to delete the tool. If you don’t know where it is, try looking in your Downloads folder or any Minecraft folder you have on your computer.</li>
+                <li>Press Windows Key and R at the same time. In the "Run" box, copy and paste the entire command:</li>
+                <p>powershell -command "Start-Process notepad $env:windir\system32\drivers\etc\hosts" -Verb runas</p>
+                <li>A blue window will briefly appear, then a UAC window. Click Yes in the UAC window that pops up. A Notepad window should open with text.</li>
+                <li>Look for lines that contain the word "mojang" and delete those lines completely.</li>
+                <li>Save the notepad file. Make sure Notepad does not ask you where to save the file; if that happens, start over and make sure you type the whole command</li>
+            </ol>
+        </p>
+        <li>Uninstalling/disabling software</li>
+        <p>Try disabling all VPNs, Hamachi, Antiviruses, and firewalls (especially third-party firewalls like McAfee)</p>
+        <li>ADWcleaner</li>
+        <p>Malwarebytes ADWCleaner is a utility to clean a PC that is infected with malware. Download it <a href=" https://downloads.malwarebytes.com/file/adwcleaner" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> here</a>. <br> Run it, click Scan Now, once it completes the scan click "Next" and allow it to fix any issues it finds. If it finds none, allow it to run the basic repair. Restart the computer when it asks you to</p>
+        <li>MacOS version</li>
+        <p>Older versions of Macs may not be able to connect to the authentication server. The minimum requirement for the modern minecraft versions is Mac 10.14.6 (Mojave) or higher, so we recommend using that or higher</p>
+    </ol>
+</div>
+</body>
+</html>
